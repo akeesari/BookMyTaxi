@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{BE798AD7-AC9A-4115-8409-6761C1349C6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Service", "2. Service", "{3C48DB02-29DA-49C5-BF46-3C47805723A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. DataAccess", "4. DataAccess", "{3F8B8248-073F-4BC2-9241-B5697A7F91C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Common", "3. Common", "{94F15C7B-79D9-4DBC-B0A9-876A990648DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{DE72BB8C-234B-424B-8065-8DFB0977F18B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{658AA127-8F53-4FE5-AFEC-F94A411402DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Database", "5. Database", "{D50FF1B3-D6EF-4D77-BB54-962DB48226CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{B465EC32-19FD-4731-8AD4-1C1722ABE97D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService", "WcfService\WcfService.csproj", "{48613D6B-48FB-4D0B-95EA-1FCAFC2D82DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookMyTaxi", "WebSite\BookMyTaxi.csproj", "{5013146C-4C32-4D1B-A254-E28E777584AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE72BB8C-234B-424B-8065-8DFB0977F18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE72BB8C-234B-424B-8065-8DFB0977F18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE72BB8C-234B-424B-8065-8DFB0977F18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE72BB8C-234B-424B-8065-8DFB0977F18B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658AA127-8F53-4FE5-AFEC-F94A411402DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658AA127-8F53-4FE5-AFEC-F94A411402DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658AA127-8F53-4FE5-AFEC-F94A411402DC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{658AA127-8F53-4FE5-AFEC-F94A411402DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658AA127-8F53-4FE5-AFEC-F94A411402DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658AA127-8F53-4FE5-AFEC-F94A411402DC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B465EC32-19FD-4731-8AD4-1C1722ABE97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B465EC32-19FD-4731-8AD4-1C1722ABE97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B465EC32-19FD-4731-8AD4-1C1722ABE97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B465EC32-19FD-4731-8AD4-1C1722ABE97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48613D6B-48FB-4D0B-95EA-1FCAFC2D82DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48613D6B-48FB-4D0B-95EA-1FCAFC2D82DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48613D6B-48FB-4D0B-95EA-1FCAFC2D82DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5013146C-4C32-4D1B-A254-E28E777584AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5013146C-4C32-4D1B-A254-E28E777584AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5013146C-4C32-4D1B-A254-E28E777584AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5013146C-4C32-4D1B-A254-E28E777584AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE72BB8C-234B-424B-8065-8DFB0977F18B} = {94F15C7B-79D9-4DBC-B0A9-876A990648DA}
+		{658AA127-8F53-4FE5-AFEC-F94A411402DC} = {D50FF1B3-D6EF-4D77-BB54-962DB48226CC}
+		{B465EC32-19FD-4731-8AD4-1C1722ABE97D} = {3F8B8248-073F-4BC2-9241-B5697A7F91C4}
+		{48613D6B-48FB-4D0B-95EA-1FCAFC2D82DF} = {3C48DB02-29DA-49C5-BF46-3C47805723A2}
+		{5013146C-4C32-4D1B-A254-E28E777584AA} = {BE798AD7-AC9A-4115-8409-6761C1349C6A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF12CC70-7CBB-4530-871D-904D2D0514F7}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://keesari.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Common\\Common.csproj
+		SccProjectTopLevelParentUniqueName1 = BookMyTaxi.sln
+		SccProjectName1 = Common
+		SccLocalPath1 = Common
+		SccProjectUniqueName2 = Database\\Database.sqlproj
+		SccProjectTopLevelParentUniqueName2 = BookMyTaxi.sln
+		SccProjectName2 = Database
+		SccLocalPath2 = Database
+		SccProjectUniqueName3 = DataAccess\\DataAccess.csproj
+		SccProjectTopLevelParentUniqueName3 = BookMyTaxi.sln
+		SccProjectName3 = DataAccess
+		SccLocalPath3 = DataAccess
+		SccProjectUniqueName4 = WcfService\\WcfService.csproj
+		SccProjectTopLevelParentUniqueName4 = BookMyTaxi.sln
+		SccProjectName4 = WcfService
+		SccLocalPath4 = WcfService
+		SccProjectUniqueName5 = WebSite\\BookMyTaxi.csproj
+		SccProjectTopLevelParentUniqueName5 = BookMyTaxi.sln
+		SccProjectName5 = WebSite
+		SccLocalPath5 = WebSite
+	EndGlobalSection
+EndGlobal
